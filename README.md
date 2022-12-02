@@ -36,9 +36,9 @@ Where I see a flash message telling me that there are no activities for that num
 ```
 
 Consider this scale to create a visual:
-0 >= price >= 0.33 ---- "$"
-0.34 >= price >= 0.67 ---- "$$"
-0.68 >= price >= 1 ---- "$$$"
+* 0 >= price >= 0.33 ---- "$"
+* 0.34 >= price >= 0.67 ---- "$$"
+* 0.68 >= price >= 1 ---- "$$$"
 
 
 
