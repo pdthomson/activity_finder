@@ -21,7 +21,7 @@ And click on the button to Find Something To Do
 I'm taken to '/activity'
 Where I see a description of the suggested activity, 
 the number of participants for the activity,
-and a visual of how pricey that activity would be*
+and a visual of how pricey that activity would be (see more info on this below)
 ```
 
 Sad Path:
@@ -36,9 +36,9 @@ Where I see a flash message telling me that there are no activities for that num
 ```
 
 Consider this scale to create a visual:
-0 >= price >= 0.33 ---- "$"
-0.34 >= price >= 0.67 ---- "$$"
-0.68 >= price >= 1 ---- "$$$"
+* 0 >= price >= 0.33 ---- "$"
+* 0.34 >= price >= 0.67 ---- "$$"
+* 0.68 >= price >= 1 ---- "$$$"
 
 
 
