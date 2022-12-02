@@ -5,7 +5,7 @@
 1. Clone this repo 
 2. `cd activity_finder`
 3. `bundle install`
-4. `rails db:{create}`
+4. `rails db:create`
 5. `rails s`
 
 When you run your server and navigate to `localhost:3000`, you should be on a landing page where you see instructions to search for things to do. 
