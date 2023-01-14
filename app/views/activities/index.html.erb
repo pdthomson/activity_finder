@@ -1,0 +1,13 @@
+<h3>Description:</h3>
+<p><%= @activity[:activity] %></p>
+<p><b>Number of Participants:</b><%= @activity[:participants]%></p>
+<% if @activity[:price] == 0 %>
+    <b>Price Scale: It's FREE</b>
+  <% elsif @activity[:price] == 0.33 %>
+    <b>Price Scale: $</b>
+  <% elsif @activity[:price] >= 0.34 && @activity[:price] <= 0.67%>
+    <b>Price Scale: $$</b>
+  <% else %>
+    <b>Price Scale: $$$</b>
+<% end %>
+<p><b>USD: <%= @activity[:price] %></b></p>

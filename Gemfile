@@ -40,6 +40,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem "capybara"
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'figaro'
+  gem 'pry'
 end
 
 group :development do

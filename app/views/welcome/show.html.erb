@@ -6,3 +6,9 @@
   <%= form.number_field :num_participants %>
   <%= form.submit "Find Activities" %>
 <% end %>
+
+<% flash.each do |type, msg| %>
+  <div>
+    <%= msg %>
+  </div>
+<% end %>
